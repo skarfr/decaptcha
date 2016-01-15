@@ -1,12 +1,8 @@
 # Ignore everything
 *
 
-# But not these files...
+# Excepted those files:
 !resources/decaptchaMaster.php
 !README.md
 !LICENSE
 !.gitignore
-# etc...
-
-# ...even if they are in subdirectories
-!*/
