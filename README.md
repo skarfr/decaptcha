@@ -3,7 +3,7 @@ This is a simple abstract PHP class containing useful functions which could be u
 Case scenario: You want to automate the submission of a particular web form which contains a "simple" captcha.
 This class won't break any captchas by itself, but by using your logic and some of the functions available in decaptchaMaster, you might be able to code a working solveCaptcha() function.
 
-### How does it works ?
+### How does it work ?
 Following the Object Inheritance principle, you can create a PHP class and extend/inherit from decaptchaMaster.php. Then, you must implement the function solveCaptcha() matching the captcha specific features that you are aiming to solve programmatically.
 decaptchaMaster doesn't know the alphabet and can not guess/read/solve without a proper "learning".
 But don't worry, there is no AI involved in here at all. The learning methode is much more "visual".
